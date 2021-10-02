@@ -31,6 +31,7 @@ This Repository consists of following programming languages
   -  Java
   -  C++ 
   -  python
+  -  HTML/CSS
 
 ## Steps to setup this Repository Locally
 
