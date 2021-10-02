@@ -44,7 +44,6 @@ This Repository consists of following programming languages
 ```bash
    git clone https://github.com/your_username/make-pull-request
 ```
-![PicsArt_10-04-07 46 13](https://user-images.githubusercontent.com/64744084/95018081-e3a5c200-067a-11eb-8a51-acde725b0345.png)
 
  3. Open the folder in your favourite code editor and add your changes or modifications.
  
