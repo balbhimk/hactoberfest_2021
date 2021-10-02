@@ -9,7 +9,7 @@ You can look at the issues [here](https://github.com/balbhimk/hacktoberfest2021)
 
 ## How to particpate in Hacktoberfest 2021
 
-How to register, some important rules to follow, which repos to contribute and other details in a 17 mins quick video on our Youtube Channel.
+How to register, some important rules to follow
 
 [![](https://raw.githubusercontent.com/twowaits/make-pull-request/master/Images/Hacktoberfest_2021_YT_Thumbnail.png)](https://youtu.be/GuZpeobFsZw)
 
