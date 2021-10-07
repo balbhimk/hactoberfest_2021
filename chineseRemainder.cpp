@@ -1,12 +1,3 @@
-/*
-
-Maitreya Kanitkar
-BE-IT   8084
-
-ICS Assignment 1 : CRT Algorithm
-
-*/
-
 #include<iostream>
 #include<vector>
 using namespace std;
