@@ -5,7 +5,7 @@
 
 Lots of students struggle in creating their first PR. They try somewhat and leave when couldn't. We created this as learning repo on how to create successful pull requests on languages like JAVA, Python, C++, HTML/CSS.
 
-You can look at the issues [here](https://github.com/balbhimk/hacktoberfest2021) and choose which one you would like to work on! Do check the [Contributing.md](https://github.com/balbhimk/hacktoberfest2021/blob/main/CONTRIBUTING.md) so that you don't face any troubles.
+You can look at the issues [here](https://github.com/balbhimk/hactoberfest_2021/issues) and choose which one you would like to work on! Do check the [Contributing.md](https://github.com/balbhimk/hacktoberfest2021/blob/main/CONTRIBUTING.md) so that you don't face any troubles.
 
 ## How to particpate in Hacktoberfest 2021
 
