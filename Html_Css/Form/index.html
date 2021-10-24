@@ -5,40 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <style>
-      form {
+    @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto+Slab:wght@700;800&family=Work+Sans:wght@100&display=swap');
+      .form {
         border: 1px solid black;
-        margin-left: 500px;
+        margin-left: 560px;
         margin-right: 500px;
+        margin-top: 45px;
         background: rgba(255, 255, 255, 0.25);
         box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
         backdrop-filter: blur(4px);
         -webkit-backdrop-filter: blur(4px);
+        font-family: 'Libre Baskerville', serif;
         border-radius: 20px;
-        border: 1px solid rgba(255, 255, 255, 0.18);
+        border: 1px solid rgba(255, 255, 255, 0.18);margin
+      }
+      .header{
+        font-family: 'Libre Baskerville', serif;
+        font-weight:bolder ;
+        display: block;
+        margin-left: 49% ;
+        font-size: 23px;
+      }.form input:hover{
+background-color: burlywood;
+      }.form input{
+        margin-left: 134px;
+      }.form label{
+        display: block;
+        margin-left: 33%;
+        margin-top: 2%;
+        /* padding: 5px; */
+
       }
     </style>
     <title>Title</title>
   </head>
   <body>
     <header>
-      <center><h1 style="margin-top: 150px">Form</h1></center>
+      <div class="header">Form</div>
     </header>
-
+<div class="form">
     <form action="#" style="margin-top: 50px">
-      <center>
+      
         <label for="fname">First name:</label><br />
-        <input type="text" id="fname" name="fname" value="charles" /><br />
+        <input type="text" id="fname" name="fname" value="" /><br />
         <label for="lname">Last name:</label><br />
-        <input type="text" id="lname" name="lname" value="Mark" /><br />
+        <input type="text" id="lname" name="lname" value="" /><br />
         <label for="email">Email:</label><br />
         <input
           type="text"
           id="email"
           name="email"
-          value="abc@gmail.com"
+          value=""
         /><br /><br />
-        <input type="submit" value="Submit" />
-      </center>
+        <input type="button" value="Submit" />
+      
     </form>
+  </div>
   </body>
 </html>
