@@ -1,21 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet">
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <style>
-      form {
-        border: 1px solid black;
-        margin-left: 500px;
-        margin-right: 500px;
-        background: rgba(255, 255, 255, 0.25);
-        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-        backdrop-filter: blur(4px);
-        -webkit-backdrop-filter: blur(4px);
-        border-radius: 20px;
-        border: 1px solid rgba(255, 255, 255, 0.18);
-      }
+	body{
+		background-color: #1d1c1a;
+		}
+	
+    .form-con {
+		width: 320px !important;
+		background: #979797;
+		margin: 0 auto;
+		padding: 10px;
+		border-radius: 8px;
+		}
+	  
+	h1 {
+		font-family: 'Vollkorn', serif;
+		letter-spacing: 5px;
+		color: #fff;
+		}
+	  
+	label{
+		color: #fff;
+		}
+		
+	  .txtcon {
+		width: 310px;
+		}
+		
+	input{
+		margin: 4px 0;
+		padding: 6px 0px 6px 10px;
+		border-radius: 4px;
+		border-width: 0px;
+		}
+	.btn-submit {
+		width: 74px;
+		text-align: center !important;
+		padding: 10px;
+		}
     </style>
     <title>Title</title>
   </head>
@@ -23,22 +53,15 @@
     <header>
       <center><h1 style="margin-top: 150px">Form</h1></center>
     </header>
+	
+    <div class="form-con">
+    <form action="#">
 
-    <form action="#" style="margin-top: 50px">
-      <center>
-        <label for="fname">First name:</label><br />
-        <input type="text" id="fname" name="fname" value="charles" /><br />
-        <label for="lname">Last name:</label><br />
-        <input type="text" id="lname" name="lname" value="Mark" /><br />
-        <label for="email">Email:</label><br />
-        <input
-          type="text"
-          id="email"
-          name="email"
-          value="abc@gmail.com"
-        /><br /><br />
-        <input type="submit" value="Submit" />
-      </center>
+        <input class="txtcon" type="text" id="fname" name="fname" placeholder="First Name" value="" />
+        <input class="txtcon" type="text" id="lname" name="lname" placeholder="Last Name" value="" />
+        <input class="txtcon" type="text" id="email" name="email" placeholder="Email" value="" /><br /><br />
+        <input class="btn-submit" type="submit" value="Submit" />
     </form>
+	</div>
   </body>
 </html>
