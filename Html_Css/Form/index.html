@@ -3,42 +3,87 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">	
 
     <style>
-      form {
-        border: 1px solid black;
-        margin-left: 500px;
-        margin-right: 500px;
-        background: rgba(255, 255, 255, 0.25);
-        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-        backdrop-filter: blur(4px);
-        -webkit-backdrop-filter: blur(4px);
-        border-radius: 20px;
-        border: 1px solid rgba(255, 255, 255, 0.18);
-      }
+	html {
+		background: #fafafa;
+	}
+	.hactoberfest {
+		width: 23%;
+		background: #fff;
+		margin: 8% auto;
+		padding: 10px 0px 40px;
+		box-shadow: 0px 7px 20px #a9a9a9;
+		border-top-style: solid;
+		border-width: 8px;
+		border-top-color: #f74700;
+	}
+	.hactoberfest h1 {
+		text-align: center;
+		padding-top: 20px;
+		font-family: 'Roboto', sans-serif;
+		font-weight: normal;
+	}
+	form.h-con {
+		width: 330px;
+		margin: 0 auto;
+	}
+	body p {
+		margin: 7px 0px 15px;
+		text-align: center;
+	}
+	input, textarea {
+		width: 280px;
+		padding: 10px;
+		font-family: 'Roboto', sans-serif;
+		font-size: 15px;
+		border-radius: 4px;
+		border-style: solid;
+		border-width: 1px;
+	}
+	input[type="submit"] {
+		width: 300px;
+		text-align: center;
+		background: #2b3531;
+		color: #fff;
+		border: 0px;
+		border-radius: 4px;
+		padding: 10px;
+	}
+	input[type="submit"]:hover {
+		background-color: #131816;
+		color: white;
+		cursor: pointer;
+	}
+	label {
+		padding-left: 15px;
+		font-size: 21px;
+		color: #2b3531;
+		font-family: 'Roboto', sans-serif;
+	}
     </style>
-    <title>Title</title>
+	
+    <title>Hactoberfest Form</title>
   </head>
   <body>
-    <header>
-      <center><h1 style="margin-top: 150px">Form</h1></center>
-    </header>
 
-    <form action="#" style="margin-top: 50px">
-      <center>
-        <label for="fname">First name:</label><br />
-        <input type="text" id="fname" name="fname" value="charles" /><br />
-        <label for="lname">Last name:</label><br />
-        <input type="text" id="lname" name="lname" value="Mark" /><br />
-        <label for="email">Email:</label><br />
-        <input
-          type="text"
-          id="email"
-          name="email"
-          value="abc@gmail.com"
-        /><br /><br />
-        <input type="submit" value="Submit" />
-      </center>
-    </form>
+	<div class="hactoberfest">
+	<form class="h-con" action="#">
+		<h1>Hactoberfest Form</h1>
+		<label for="fname">Name</label>
+		<p><input type="text" id="fname" name="fname" placeholder="Your full name"></p>
+		<label for="email">Email</label>
+		<p><input type="text" id="email" name="email" placeholder="What should we reply you back"></p>
+		<label for="subject">Subject</label>
+		<p><input type="text" id="subject" name="subject" placeholder="The reason"></p>
+		<label for="message">Message</label>
+		<p><textarea rows="4" cols="30" name="comment" form="usrform" placeholder="Your message here..."></textarea></p>
+		<p><input type="submit" value="Submit"></p>
+	</form>
+	</div>
+	
   </body>
 </html>
